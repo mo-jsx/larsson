@@ -65,5 +65,8 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "tslib": "^2.5.0"
+  },
+  "dependencies": {
+    "formik": "^2.2.9"
   }
 }
