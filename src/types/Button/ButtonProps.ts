@@ -1,6 +1,6 @@
 interface ButtonProps {
     label: string;
-    type?: string;
+    type: "button" | "submit" | "reset";
 }
 
 export default ButtonProps;
