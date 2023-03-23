@@ -43,6 +43,7 @@
     "@types/jest": "^29.5.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26",
     "babel-jest": "^29.5.0",
     "babel-loader": "^8.3.0",
     "css-loader": "^6.7.3",
@@ -69,6 +70,7 @@
   "dependencies": {
     "@types/yup": "^0.32.0",
     "formik": "^2.2.9",
+    "styled-components": "^5.3.9",
     "yup": "^1.0.2"
   }
 }
