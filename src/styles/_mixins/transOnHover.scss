@@ -1,0 +1,3 @@
+@mixin transOnHover($duration) {
+    transition: $duration all ease-in-out;
+}

@@ -1,0 +1,10 @@
+// IMPORT Transition On Hover mixin
+// Takes transition duration as argument
+@import "./transOnHover.scss";
+
+@mixin darkerOnHover($color, $amount: 10%) {
+    &:hover {
+        background-color: darken($color, $amount);
+        @include transOnHover(0.2s);
+    }
+}
