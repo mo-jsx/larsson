@@ -4,10 +4,10 @@ import Button from "types/Button";
 import "./styles.scss";
 
 const SimpleButton = (props: Button) => {
-    const { label, type } = props;
+    const { label, type, variant } = props;
     return (
         <Wrapper>
-            <button className="btn" type={type}>
+            <button className={`btn ${variant}`} type={type}>
                 {label}
             </button>
         </Wrapper>
