@@ -1,0 +1,46 @@
+// IMPORT GLOBAL VARIABLES
+@use "../../../styles/variables" as v;
+
+// IMPORT Transition On Hover mixin
+// Takes transition duration as argument
+@import "../../../styles/_mixins/transOnHover.scss";
+
+.card {
+    width: 250px;
+    height: 350px;
+    background-color: v.$color-white;
+    border: 2px solid v.$color-night;
+    border-radius: v.$border-radius;
+
+    &:hover {
+        transform: scale(0.95);
+        @include transOnHover(0.4s);
+    }
+
+    .img {
+        img {
+            width: 100%;
+            height: 55%;
+            border-radius: v.$border-radius v.$border-radius 0 0;
+            border-bottom: 2px solid v.$color-night;
+        }
+    }
+
+    .text {
+        padding: 1rem 0.5rem;
+
+        .title {
+            a {
+                color: v.$color-crimson;
+            }
+        }
+
+        title a,
+        .desc {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 250px;
+        }
+    }
+}
