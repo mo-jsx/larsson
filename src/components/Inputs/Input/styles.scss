@@ -1,0 +1,17 @@
+// IMPORT GLOBAL VARIABLES
+@use "../../../styles/variables" as v;
+
+// IMPORT FLEX MIXIN
+// Takes flex-direction and justify as arguments
+@import "../../../styles/_mixins/flex.scss";
+
+.input input {
+    border: 2px solid v.$color-night;
+}
+
+.vertical {
+    @include flex(row, space-between);
+}
+.horizontal {
+    @include flex(column, space-between);
+}
