@@ -1,6 +1,37 @@
+// IMPORT GLOBAL VARIABLES
+@use "../../../styles/variables" as v;
+
+// IMPORT DarkerOnHover mixin
+// Takes color and darker amount as arguments
+@import "../../../styles/_mixins/darkerOnHover.scss";
+
 .btn {
-    background-color: red;
-    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    color: v.$color-white;
+
     border: none;
     cursor: pointer;
+}
+
+.primary {
+    background-color: v.$color-silver;
+    color: v.$color-night;
+
+    @include darkerOnHover(v.$color-silver);
+}
+.secondary {
+    background-color: v.$color-navy;
+
+    @include darkerOnHover(v.$color-navy);
+}
+.danger {
+    background-color: v.$color-crimson;
+
+    @include darkerOnHover(v.$color-crimson);
+}
+.success {
+    background-color: v.$color-success;
+
+    @include darkerOnHover(v.$color-success);
 }
