@@ -31,15 +31,8 @@ A react components library.
 
 -   Navigation
 
-    -   Simple Link
     -   Dropdown
-    -   Header
-    -   Footer
-    -   Mobile Menu
     -   Breadcumber
-
--   Dashboard
-
     -   Card
 
 ---
@@ -52,6 +45,8 @@ Guts mainly uses the following colors :
 
 -   ![#DC143C](https://placehold.co/15x15/dc143c/dc143c.png) `Crimson #DC143C`
 -   ![#00008B](https://placehold.co/15x15/00008B/00008B.png) `Navy Blue #00008B`
+
+-   ![#32cd32](https://placehold.co/15x15/32cd32/32cd32.png) `Limegreen #32cd32`
 -   ![#111111](https://placehold.co/15x15/111111/111111.png) `Night #111111`
 -   ![#cccccc](https://placehold.co/15x15/cccccc/cccccc.png) `Silver #cccccc`
 -   ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) `White #ffffff`
