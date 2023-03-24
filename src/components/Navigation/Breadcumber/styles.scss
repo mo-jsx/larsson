@@ -1,0 +1,12 @@
+// IMPORT GLOBAL VARIABLES
+@use "../../../styles/variables" as v;
+
+.breadcumber {
+    color: v.$color-night;
+
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
