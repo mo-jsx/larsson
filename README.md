@@ -41,7 +41,7 @@ A react components library.
 
 ### Color palette
 
-Guts mainly uses the following colors :
+Larsson mainly uses the following colors :
 
 -   ![#DC143C](https://placehold.co/15x15/dc143c/dc143c.png) `Crimson #DC143C`
 -   ![#00008B](https://placehold.co/15x15/00008B/00008B.png) `Navy Blue #00008B`
@@ -63,7 +63,7 @@ We source the majority of our UI icons from Heroicons. This helps us to avoid in
 
 [Link To Iconography](https://heroicons.dev/)
 
-You can find the complete design system and guidelines from where Guts was inspired to use it best. [Design System](https://snow-coffee-285.notion.site/dd4e110cfd5d4c44a840ff43e289c3c5?v=9d2f7a1c74f04f81966ab0fa3dee4923)
+You can find the complete design system and guidelines from where Larsson was inspired to use it best. [Design System](https://snow-coffee-285.notion.site/dd4e110cfd5d4c44a840ff43e289c3c5?v=9d2f7a1c74f04f81966ab0fa3dee4923)
 
 ---
 
@@ -72,7 +72,7 @@ You can find the complete design system and guidelines from where Guts was inspi
 ### Installation
 
 ```
-npm install @mojsx/guts
+npm install @mojsx/larsson
 ```
 
 ### Use case
@@ -81,7 +81,7 @@ npm install @mojsx/guts
 
 ```
 ...
-import { FlatButton } from "guts/buttons";
+import { FlatButton } from "larsson/buttons";
 
 ...
 
@@ -90,7 +90,7 @@ const App = () => {
         <>
             <FlatButton
                 content="White Button"
-                href="https://github.com/mo-jsx/guts"
+                href="https://github.com/mo-jsx/larsson"
                 variant="primary"
             />
         </>
